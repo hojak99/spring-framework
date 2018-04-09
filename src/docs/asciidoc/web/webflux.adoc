@@ -571,7 +571,7 @@ The `spring-core` module defines the
 {api-spring-framework}/core/codec/Decoder.html[Decoder] contracts that are independent of
 HTTP and rely on the {api-spring-framework}/core/io/buffer/DataBuffer.html[DataBuffer]
 contract that abstracts different byte buffer representations such as the Netty `ByteBuf`
-and `java.nio.ByteBuffer` (see <<#core/core-databuffer-codec.adoc, Data Buffers and Codecs>>).
+and `java.nio.ByteBuffer` (see <<../core/core-databuffer-codec.adoc, Data Buffers and Codecs>>).
 An `Encoder` can be wrapped with `EncoderHttpMessageWriter` to be used as an
 `HttpMessageWriter` while a `Decoder` can be wrapped with `DecoderHttpMessageReader` to
 be used as an `HttpMessageReader`.
