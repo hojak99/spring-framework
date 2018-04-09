@@ -530,7 +530,7 @@ The `DefaultServerWebExchange` uses the configured `HttpMessageReader` to parse 
 
 [[webflux-multipart]]
 ==== Multipart data
-[.small]#<<web.adoc#mvc-multipart,Same in Spring MVC>>#
+[.small]#<<webmvc.adoc#multipart-resolver,Same in Spring MVC>>#
 
 `ServerWebExchange` exposes the following method for access to multipart data:
 [source,java,indent=0]
